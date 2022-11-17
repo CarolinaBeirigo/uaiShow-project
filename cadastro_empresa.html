@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_emp.css">
+    <link rel="stylesheet" href="global.css">
+    <title>UaiShow -  cadastro Empresa</title>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--W3SCHOOL-->
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+    <!--ICON DO SITE-->
+    <link rel="shortcut icon" href="svg/icon_site.ico" type="image/x-icon">
+    <!--Icones-->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header id="header" class="container">
+        <nav>
+            <a class="logo" href="file:///C:/Users/htsis001t/Desktop/uaishow_vers%C3%A3o_final/index.html"><span>Uai</span>Show</a>
+            <div class="menu">
+
+                <div id="input-container">
+                    <label for="input-search"><img src="./svg/search-icon.svg" alt=""></label>
+                    <input class="search-input" type="search" name="" id="input-search" placeholder="Pesquisar evento">
+                </div>
+                <ul class="links">
+                    <li><a class="title" href="#">Uberlândia</a></li>
+                    <li><a class="title" href="file:///C:/Users/htsis001t/Desktop/uaishow_vers%C3%A3o_final/login.html">Login</a></li>
+                    <li><a class="title" href="file:///C:/Users/htsis001t/Desktop/uaishow_vers%C3%A3o_final/cadastro_Artista.html">Cadastrar</a></li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div id = "Cadastro">
+        <h1>Cadastro</h1>
+        <p>Insira os seus dados para realizar seu cadastro. Você poderá fazer as alterações a qualquer momento.</p>
+        <br>
+        <div id="cad_mobile">
+        <h3>Selecione sua categoria</h3>
+            <div id = "button">
+                <a href="file:///C:/Users/htsis001t/Desktop/uaishow_vers%C3%A3o_final/cadastro_Artista.html" target="_blank"><button class="button btn_artista">Artista</button></a>&nbsp;&nbsp;&nbsp;
+                <a href="file:///C:/Users/htsis001t/Desktop/uaishow_vers%C3%A3o_final/cadastro_empresa.html" target="_blank"><button class="button btn_empresa">Empresa</button></a>&nbsp;&nbsp;&nbsp;
+                <a href="file:///C:/Users/htsis001t/Desktop/uaishow_vers%C3%A3o_final/cadastro_usuario.html" target="_blank"><button class="button btn_usuario">Usuário</button></a>&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <form>
+            <div class = "Formulario">
+                <label>Nome Completo</label>
+                <input class = "caixa" type = "text" name = "nome" size = 71 required/>
+                <label>Email</label>
+                <input class = "caixa" type = "email" name = "email" size = 71 required/>
+                <label>Endereço</label>
+                <input class = "caixa" type = "text" name = "nome" size = 71 required/>
+
+                    <div class = "input-group">
+                        <div class="input-box">
+                            <label>Telefone</label>
+                            <input class = "caixa" type = "tel" name = "number" size = 33 required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label>Rede Social (link)</label>
+                            <input class = "caixa" type = "link" name = "link" size = 33 required/>
+                        </div>
+                      
+                    </div>
+
+                <label>Nome Fantasia</label>
+                <input class = "caixa" type = "text" name = "nome" size = 71 required/>
+                <label>Responsável</label>
+                <input class = "caixa" type = "text" name = "nome" size = 71 required/>
+                <label>Cnpj</label>
+                <input class = "caixa" type = "text" name = "nome" size = 71 required/>
+
+                <div class = "input-group">
+                    <div class="input-box">
+                        <label>Telefone da Empresa</label>
+                <input class = "caixa" type = "tel" name = "number" size = 33 required/>
+                    </div>
+
+                    <div class="input-box">
+                        <label>CEP</label>
+                        <input class = "caixa" type = "text" name = "nome" size = 33 required/>
+                    </div>
+                  
+                </div>
+
+                <div class = "input-group">
+                    <div class="input-box">
+                        <label>Estilo Temático</label>
+                <input class = "caixa" type = "text" name = "nome" size = 33 required/>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Capacidade Máxima</label>
+                        <input class = "caixa" type = "text" name = "nome" size = 33 required/>
+                    </div>
+                  
+                </div>
+
+                <h4>Estilos Musicais</h4><br>
+                    <div class = "wrapper">
+                        <div class = "input-group1">
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox1" type='checkbox' />
+                                    <label for="checkbox1">Sertanejo</label>
+                                </div>
+                            </div>
+
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox2" type='checkbox' />
+                                <label for="checkbox2">Mpb</label>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class = "input-group2">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Rock</label>
+                            </div>
+                        </div>
+
+                    <div class="input-box">
+                        <div class="form-group">
+                            <input class="checkbox" id="checkbox2" type='checkbox' />
+                            <label for="checkbox2">Forró</label>
+                          </div>
+                    </div>
+                </div>
+
+                <div class = "input-group3">
+                    <div class="input-box">
+                        <div class="form-group">
+                            <input class="checkbox" id="checkbox1" type='checkbox' />
+                            <label for="checkbox1">Pop</label>
+                        </div>
+                    </div>
+
+                <div class="input-box">
+                    <div class="form-group">
+                        <input class="checkbox" id="checkbox2" type='checkbox' />
+                        <label for="checkbox2">Samba</label>
+                      </div>
+                </div>
+            </div>                  
+
+        </div><!--FECHMANENTO DA DIV "wrapper"-->
+
+        <label>Outros</label>
+            <input class = "caixa" type = "text" name = "nome" size = 35/>
+
+        <h4>Funcionamento</h4><br>
+            <div id = "Funcionamento">
+                <p>Dia</p>
+                <p>Horário de Abertura</p>
+                <P>Horário de Encerramento</p>
+            <div class = "Horario">
+                <p>Segunda-Feira</p>
+                    <input class = "caixa1" type="text" name = "nome" size = 15/>
+                    <input class = "caixa2" type="text" name = "nome" size = 18/>
+            </div>
+            <div class = "Horario">
+                <p>Terça-Feira</p>
+                    <input class = "caixa3" type="text" name = "nome" size = 15/>
+                    <input class = "caixa4" type="text" name = "nome" size = 18/>
+            </div>
+            <div class = "Horario">
+                <p>Quarta-Feira</p>
+                    <input class = "caixa5" type="text" name = "nome" size = 15/>
+                    <input class = "caixa6" type="text" name = "nome" size = 18/>
+            </div>
+            <div class = "Horario">
+                <p>Quinta-Feira</p>
+                    <input class = "caixa7" type="text" name = "nome" size = 15/>
+                    <input class = "caixa8" type="text" name = "nome" size = 18/>
+            </div>
+            <div class = "Horario">
+                <p>Sexta-Feira</p>
+                    <input class = "caixa9" type="text" name = "nome" size = 15/>
+                    <input class = "caixa10" type="text" name = "nome" size = 18/>
+            </div>
+            <div class = "Horario">
+                <p>Sábado</p>
+                    <input class = "caixa11" type="text" name = "nome" size = 15/>
+                    <input class = "caixa12" type="text" name = "nome" size = 18/>
+            </div>
+            <div class = "Horario">
+                <p>Domingo</p>
+                    <input class = "caixa13" type="text" name = "nome" size = 15/>
+                    <input class = "caixa14" type="text" name = "nome" size = 18/>
+            </div>
+        </div>
+           
+        <div class = "descrição">
+            <label>Descrição</label><br>
+            <textarea cols = "68" rows = "10" name = "descrição"></textarea>
+        </div>
+        <!--BOTÃO CADASTRAR-->
+        <button type = "submit"class="button button4">Cadastrar</button>
+        </div><!--FECHMANENTO DA DIV "Formulário"--> 
+</form>
+
+    </div><!--FECHAMANENTO DO ID  "Cadastro"-->
+
+    <!--RODAPÉ-->
+    <footer id="footer">
+ 
+        <div id="box-center" class="container">
+ 
+            <div id="box-uaishow">
+                <h3>UaiShow</h3>
+                <p>Copyright© 2022 UaiShow </p>
+                <p>Todos direitos reservados.</p>
+            </div>
+ 
+            <div id="box-midias">
+                <h3>Mídias Sociais</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+ 
+            <div id="box-contato">
+                <h3>Contato</h3>
+                <p>Fale conosco</p>
+            </div>
+ 
+        </div>
+ 
+    </footer>
+         
+   
+    <script src="scripts.js"></script>
+</body>
+
+</html>

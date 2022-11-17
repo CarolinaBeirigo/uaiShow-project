@@ -1,0 +1,574 @@
+#Cadastro {
+  margin-top: 2%;
+  margin-left: 139px;
+
+}
+
+#Cadastro h1 {
+  margin-bottom: 8px;
+}
+
+#Cadastro p {
+  color: #737272;
+  font-size: 18px;
+}
+
+#cad_mobile h3 {
+  margin-top: 2rem;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 246px;
+  height: 48px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+.btn_artista {
+  background-color: #217ad6;
+  color: white;
+  border: 2px solid #217ad6;
+}
+
+.btn_artista:hover {
+  background-color: #217ad6;
+  color: white;
+  border: 2px solid #217ad6;
+
+}
+
+.btn_empresa {
+  background-color: #222121;
+  color: white;
+  border: 2px solid #222121;
+}
+
+.btn_empresa:hover {
+  background-color: #217ad6;
+  color: white;
+  border: 2px solid #217ad6;
+
+}
+
+.btn_usuario {
+  background-color: #222121;
+  color: white;
+  border: 2px solid #222121;
+}
+
+.btn_usuario:hover {
+  background-color: #217ad6;
+  color: white;
+  border: 2px solid #217ad6;
+}
+
+/*FORMULÁRIO*/
+
+.Formulario {
+  margin-top: 40px;
+}
+
+.caixa {
+  height: 40px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.caixa:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*POSIÇÃO DA CAIXA DE FORMULÁRIO*/
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  flex-direction: row;
+  padding: 0;
+  gap: 18px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+#uf {
+  height: 40px;
+}
+
+/*CHEKBOX*/
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+
+.checkbox {
+  cursor: pointer;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 3px solid rgb(31, 103, 190);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+
+}
+
+.checkbox:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: solid rgb(31, 103, 190);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 600ms ease-in-out;
+  position: absolute;
+}
+
+.checkbox:before {
+  border-radius: 0;
+  background: transparent;
+  border: 4px solid rgb(31, 103, 190);
+  border-left: 0;
+  border-top: 0;
+  width: 7px;
+  height: 12px;
+  transform: rotate(45deg);
+  top: 2px;
+}
+
+.checkbox:checked:before {
+  opacity: 1;
+}
+
+.checkbox:focus {
+  box-shadow: 0 0 5px solid rgb(31, 103, );
+}
+
+/*POSIÇÕES DA CHECKBOX*/
+.input-group1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  flex-direction: row;
+  padding: 0;
+  gap: 4.2em;
+}
+
+.input-group2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  flex-direction: row;
+  padding: 0;
+  gap: 5.8em;
+}
+
+.input-group3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  flex-direction: row;
+  padding: 0;
+  gap: 5em;
+}
+
+/*FUNCIONAMENTO*/
+
+#Funcionamento {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  flex-direction: row;
+  padding: 0;
+  column-gap: 9em;
+}
+
+.Horario {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  flex-direction: row;
+  padding: 0;
+  column-gap: 2em;
+}
+
+/*CAIXA 1 E 2 = SEGUNDA-FEIRA*/
+.caixa1 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 1em;
+}
+
+.caixa1:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa1:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+.caixa2 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 6.9em;
+}
+
+.caixa2:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa2:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*CAIXA 3 E 4 = TERÇA-FEIRA*/
+
+.caixa3 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 2.8em;
+}
+
+.caixa3:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa3:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+.caixa4 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 6.9em;
+}
+
+.caixa4:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa4:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*CAIXA 5 E 6 = QUARTA-FEIRA*/
+.caixa5 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 1.8em;
+}
+
+.caixa5:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa5:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+.caixa6 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 6.9em;
+}
+
+.caixa6:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa6:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*CAIXA 7 E 8 = QUINTA-FEIRA*/
+
+.caixa7 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 1.8em;
+}
+
+.caixa7:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa7:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+.caixa8 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 6.9em;
+}
+
+.caixa8:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa8:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*CAIXA 9 E 10 = SEXTA-FEIRA*/
+
+.caixa9 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 2.2em;
+}
+
+.caixa9:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa9:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+.caixa10 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 6.9em;
+}
+
+.caixa10:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa10:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*CAIXA 11 E 12 = SÁBADO*/
+
+.caixa11 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 4.2em;
+}
+
+.caixa11:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa11:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+.caixa12 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 6.9em;
+}
+
+.caixa12:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa12:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*CAIXA 13 E 14 = DOMINGO*/
+
+.caixa13 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 3.4em;
+}
+
+.caixa13:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa13:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+.caixa14 {
+  height: 35px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+  margin-left: 6.9em;
+}
+
+.caixa14:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa14:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*CAIXA DE DESCRIÇÃO*/
+.descrição {
+  display: block;
+  font-size: 15px;
+}
+
+textarea {
+  outline: none;
+}
+
+/*BOTÃO CADASTRAR*/
+.button4 {
+  margin-top: 4%;
+  background-color: white;
+  color: black;
+  border: 2px solid #217ad6;
+}
+
+.button4:hover {
+  background-color: #217ad6;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  #Cadastro {
+    margin-top: 2%;
+    margin-left: 87px;
+    margin-right: 15%;
+  }
+
+  #cad_mobile {
+    text-align: center;
+    padding-left: 35px;
+  }
+
+  .caixa {
+    width: 300px;
+    height: 40px;
+    display: block;
+    margin-bottom: 30px;
+    outline: none;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 246px;
+    height: 48px;
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+
+  .btn_artista {
+    background-color: #217ad6;
+    color: white;
+    border: 2px solid #217ad6;
+  }
+
+  .btn_artista:hover {
+    background-color: #217ad6;
+    color: white;
+    border: 2px solid #217ad6;
+
+  }
+
+  .btn_empresa {
+    background-color: #222121;
+    color: white;
+    border: 2px solid #222121;
+  }
+
+  .btn_empresa:hover {
+    background-color: #217ad6;
+    color: white;
+    border: 2px solid #217ad6;
+
+  }
+
+  .btn_usuario {
+    background-color: #222121;
+    color: white;
+    border: 2px solid #222121;
+  }
+
+  .btn_usuario:hover {
+    background-color: #217ad6;
+    color: white;
+  }
+
+}
